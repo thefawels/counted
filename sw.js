@@ -1,7 +1,7 @@
 const CACHE_PREFIX = "counted-";
 const LEGACY_CACHE_PREFIX = "inventory-recheck-";
-const CACHE_NAME = "counted-vrpodg-icons-v1";
-const PRECACHE = ["./","./index.html","./manifest.webmanifest","./favicon.png","./apple-touch-icon.png","./icon-192.png","./icon-512.png","./icon-1024.png","./og.png","./app-DdPV4Guw.js","./chunk-BKRZC9ab.js","./index-SWR3yBPX.css"];
+const CACHE_NAME = "counted-1wn98oy-icons-v1";
+const PRECACHE = ["./","./index.html","./manifest.webmanifest","./favicon.png","./apple-touch-icon.png","./icon-192.png","./icon-512.png","./icon-1024.png","./og.png","./app-DkG4H0eD.js","./chunk-BKRZC9ab.js","./index-4lAT3Hnb.css"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

@@ -1,0 +1,20 @@
+.mode-divider { margin: 24px 0; display: flex; align-items: center; gap: 16px; color: var(--muted-2); font-size: 13px; }
+.mode-divider::before, .mode-divider::after { content: ''; height: 1px; background: var(--line); flex: 1; }
+.count-mode-button { width: 100%; padding: 20px; border: 1px solid var(--line); border-radius: 16px; text-align: left; cursor: pointer; background: var(--surface); }
+.count-mode-button strong, .count-mode-button span { display: block; }
+.count-mode-button strong { font-size: 18px; color: var(--strong); }
+.count-mode-button span { margin-top: 6px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+.resume-report { width: 100%; margin-top: 16px; padding: 14px; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
+.haptics-setting { display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 16px; margin-top: 20px; padding: 14px 0; color: var(--muted); font-size: 14px; cursor: pointer; }
+.haptics-setting span:last-child { color: var(--strong); }
+.menu-popover .haptics-setting { margin: 0; padding: 12px 16px; }
+.count-metrics { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-top: 12px; }
+.count-metrics small { color: var(--muted); }
+.count-metrics strong { font-size: 20px; font-variant-numeric: tabular-nums; }
+.count-summary { grid-template-columns: 1fr 1fr; }
+.count-mode-button:active { background: #202022; }
+
+/* Keep the numeric keypad aligned after removing clear-all. */
+.calculator-grid .backspace-wide { grid-column: span 2; }
+/* Match the original revision label exactly, with no added visual treatment. */
+.source-values .revision-value { background: var(--black); color: var(--muted); border: 0; border-radius: 24px; padding: 15px 16px; font-size: 11px; text-align: left; }

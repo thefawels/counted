@@ -1,4 +1,4 @@
-// Catalog and exact quantity-cell mapping from the supplied workbook.
+// Display names only; the original Excel template remains unchanged.
 export const supplyBranches = [
   {
     "id": "chelyuskina",
@@ -8,7 +8,7 @@ export const supplyBranches = [
     "products": [
       {
         "id": "supplies-chelyuskina-B2",
-        "name": "Вилка в инд. упаковке 500 шт",
+        "name": "Вилка в инд. упаковке (500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B2",
@@ -17,7 +17,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B3",
-        "name": "Ложка столовая в инд. упаковке 500 шт",
+        "name": "Ложка столовая в инд. упаковке (500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B3",
@@ -26,7 +26,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B4",
-        "name": "Нож столовый в инд. упаковке 500 шт",
+        "name": "Нож столовый в инд. упаковке (500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B4",
@@ -35,7 +35,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B5",
-        "name": "Скатерть на поднос микс-дизайн, 320х250 мм 1000 шт",
+        "name": "Скатерть на поднос микс-дизайн (320х250 мм 1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B5",
@@ -44,7 +44,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B6",
-        "name": "Пакет «майка», 2000 шт",
+        "name": "Пакет «майка» (2000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B6",
@@ -53,7 +53,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B7",
-        "name": "Пакет для переноски коробок универсальный 20*55, 1000 шт",
+        "name": "Пакет для переноски коробок универсальный (20*55, 1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B7",
@@ -62,7 +62,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B8",
-        "name": "Стакан одноразовый, прозрачный 200 мл., 100шт*42упак",
+        "name": "Стакан одноразовый, прозрачный (200 мл., 100шт*42упак)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B8",
@@ -80,7 +80,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B10",
-        "name": "Держатель для двух стаканов 150 шт",
+        "name": "Держатель для двух стаканов (150 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B10",
@@ -89,7 +89,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B11",
-        "name": "Размешиватель для кофе, 5000 шт",
+        "name": "Размешиватель для кофе (5000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B11",
@@ -98,7 +98,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B12",
-        "name": "Сахар порционный, 1000 шт",
+        "name": "Сахар порционный (1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B12",
@@ -107,7 +107,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B13",
-        "name": "Трубочки с острым концом, 1250 шт",
+        "name": "Трубочки с острым концом (1250 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B13",
@@ -116,7 +116,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B14",
-        "name": "Для пиццы кусочками, конверт, 1000 шт",
+        "name": "Для пиццы кусочками, конверт (1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B14",
@@ -143,7 +143,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B17",
-        "name": "Детская атрибутика, одноразовые тарелки, 200 шт",
+        "name": "Детская атрибутика, одноразовые тарелки (200 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B17",
@@ -152,7 +152,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B18",
-        "name": "Детская атрибутика, зажим для воздушного шара, 100 шт",
+        "name": "Детская атрибутика, зажим для воздушного шара (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B18",
@@ -161,7 +161,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B19",
-        "name": "Детская атрибутика, палочка для воздушного шара, 100 шт",
+        "name": "Детская атрибутика, палочка для воздушного шара (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B19",
@@ -170,7 +170,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B20",
-        "name": "Детская атрибутика, шар воздушный фирменный, 100 шт",
+        "name": "Детская атрибутика, шар воздушный фирменный (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B20",
@@ -179,7 +179,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B21",
-        "name": "Детская атрибутика, раскраска, 250 шт",
+        "name": "Детская атрибутика, раскраска (250 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B21",
@@ -188,7 +188,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B22",
-        "name": "Листовка А5 «Диплом пиццамейкера», 100 шт",
+        "name": "Листовка А5 «Диплом пиццамейкера» (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B22",
@@ -197,7 +197,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B23",
-        "name": "Детская атрибутика, колпачки, 176 шт",
+        "name": "Детская атрибутика, колпачки (176 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B23",
@@ -206,7 +206,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B24",
-        "name": "Детская атрибутика, маска «Додо Клюв», 200 шт",
+        "name": "Детская атрибутика, маска «Додо Клюв» (200 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B24",
@@ -215,7 +215,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B25",
-        "name": "Детская атрибутика, бумажная гирлянда, 60 шт",
+        "name": "Детская атрибутика, бумажная гирлянда (60 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B25",
@@ -224,7 +224,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B26",
-        "name": "Листовка «В Додо есть то, что важно», 200 шт",
+        "name": "Листовка «В Додо есть то, что важно» (200 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B26",
@@ -233,7 +233,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-B27",
-        "name": "Анкета «В Додо есть то, что важно», 100 шт",
+        "name": "Анкета «В Додо есть то, что важно» (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B27",
@@ -260,7 +260,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E2",
-        "name": "Салфетки бумажные, 100 шт*24 упак",
+        "name": "Салфетки бумажные (100 шт*24 упак)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E2",
@@ -269,7 +269,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E3",
-        "name": "Полотенца бумажные V-образное сложение 15уп.* 250лист. Focus Eco",
+        "name": "Полотенца бумажные V-образное сложение (15уп.* 250лист. Focus Eco)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E3",
@@ -278,7 +278,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E4",
-        "name": "Крупка. Мука из твердой пшеницы, 10кг",
+        "name": "Крупка. Мука из твердой пшеницы (10кг)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E4",
@@ -287,7 +287,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E5",
-        "name": "Для теста: Сахар-песок, 10 упак*1 кг",
+        "name": "Для теста: Сахар-песок (10 упак*1 кг)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E5",
@@ -296,7 +296,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E6",
-        "name": "Фольга алюминиевая 30см, 60м*12 рулонов",
+        "name": "Фольга алюминиевая (30см, 60м*12 рулонов)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E6",
@@ -305,7 +305,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E7",
-        "name": "Бумага для выпечки, 2000 шт./кор",
+        "name": "Бумага для выпечки (2000 шт./кор)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E7",
@@ -314,7 +314,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E8",
-        "name": "Пергамент Додо пицца фирменный, 2000 шт/кор",
+        "name": "Пергамент Додо пицца фирменный (2000 шт/кор)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E8",
@@ -323,7 +323,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E9",
-        "name": "Пакет для снэков, 2000 шт",
+        "name": "Пакет для снэков (2000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E9",
@@ -332,7 +332,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E10",
-        "name": "Термоэтикетка 40*110, 10 роликов*500 шт",
+        "name": "Термоэтикетка (40*110, 10 роликов*500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E10",
@@ -341,7 +341,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E11",
-        "name": "Этикетка 30*20 для маркировки продуктов, 14400 шт",
+        "name": "Этикетка для маркировки продуктов (30*20, 14400 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E11",
@@ -359,7 +359,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E13",
-        "name": "Чековая термо-лента без печати, 80 м*15 рол",
+        "name": "Чековая термо-лента без печати (80 м*15 рол)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E13",
@@ -368,7 +368,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E14",
-        "name": "Шапочка одноразовая, 100 шт",
+        "name": "Шапочка одноразовая (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E14",
@@ -377,7 +377,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E15",
-        "name": "Шапочка-сеточка из нейлона черная, 100 шт",
+        "name": "Шапочка-сеточка из нейлона черная (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E15",
@@ -386,7 +386,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E16",
-        "name": "Бахилы, 50 пар",
+        "name": "Бахилы (50 пар)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E16",
@@ -395,7 +395,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E17",
-        "name": "Мешки для мусора 180 л, заказывать кратно коробке, 1 кор*8шт",
+        "name": "Мешки для мусора (180 л, заказывать кратно коробке, 1 кор*8шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E17",
@@ -404,7 +404,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E18",
-        "name": "Мешки для мусора 60 л заказывать кратно коробке, 1 кор*60шт",
+        "name": "Мешки для мусора (60 л заказывать кратно коробке, 1 кор*60шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E18",
@@ -413,7 +413,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E19",
-        "name": "Перчатки одноразовые винил, S, 100 шт",
+        "name": "Перчатки одноразовые винил (S, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E19",
@@ -422,7 +422,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E20",
-        "name": "Перчатки одноразовые винил, M, 100 шт",
+        "name": "Перчатки одноразовые винил (M, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E20",
@@ -431,7 +431,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E21",
-        "name": "Перчатки одноразовые винил, L, 100 шт",
+        "name": "Перчатки одноразовые винил (L, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E21",
@@ -440,7 +440,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E22",
-        "name": "Перчатки одноразовые винил, XL, 100 шт",
+        "name": "Перчатки одноразовые винил (XL, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E22",
@@ -449,7 +449,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E23",
-        "name": "Бумага офисная А4, 500 л",
+        "name": "Бумага офисная А4 (500 л)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E23",
@@ -458,7 +458,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E24",
-        "name": "Бейдж, 20шт",
+        "name": "Бейдж (20шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E24",
@@ -467,7 +467,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-chelyuskina-E25",
-        "name": "Трубочки 0.2",
+        "name": "Трубочки (0.2)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E25",
@@ -502,7 +502,7 @@ export const supplyBranches = [
     "products": [
       {
         "id": "supplies-sertolovo-B2",
-        "name": "Вилка в инд. упаковке 500 шт",
+        "name": "Вилка в инд. упаковке (500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B2",
@@ -511,7 +511,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B3",
-        "name": "Ложка столовая в инд. упаковке 500 шт",
+        "name": "Ложка столовая в инд. упаковке (500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B3",
@@ -520,7 +520,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B4",
-        "name": "Нож столовый в инд. упаковке 500 шт",
+        "name": "Нож столовый в инд. упаковке (500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B4",
@@ -529,7 +529,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B5",
-        "name": "Скатерть на поднос микс-дизайн, 320х250 мм 1000 шт",
+        "name": "Скатерть на поднос микс-дизайн (320х250 мм 1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B5",
@@ -538,7 +538,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B6",
-        "name": "Пакет «майка», 2000 шт",
+        "name": "Пакет «майка» (2000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B6",
@@ -547,7 +547,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B7",
-        "name": "Пакет для переноски коробок универсальный 20*55, 1000 шт",
+        "name": "Пакет для переноски коробок универсальный (20*55, 1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B7",
@@ -556,7 +556,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B8",
-        "name": "Стакан одноразовый, прозрачный 200 мл., 100шт*42упак",
+        "name": "Стакан одноразовый, прозрачный (200 мл., 100шт*42упак)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B8",
@@ -574,7 +574,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B10",
-        "name": "Держатель для двух стаканов 150 шт",
+        "name": "Держатель для двух стаканов (150 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B10",
@@ -583,7 +583,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B11",
-        "name": "Размешиватель для кофе, 5000 шт",
+        "name": "Размешиватель для кофе (5000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B11",
@@ -592,7 +592,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B12",
-        "name": "Сахар порционный, 1000 шт",
+        "name": "Сахар порционный (1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B12",
@@ -601,7 +601,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B13",
-        "name": "Трубочки с острым концом, 1250 шт",
+        "name": "Трубочки с острым концом (1250 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B13",
@@ -610,7 +610,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B14",
-        "name": "Для пиццы кусочками, конверт, 1000 шт",
+        "name": "Для пиццы кусочками, конверт (1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B14",
@@ -637,7 +637,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B17",
-        "name": "Детская атрибутика, одноразовые тарелки, 200 шт",
+        "name": "Детская атрибутика, одноразовые тарелки (200 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B17",
@@ -646,7 +646,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B18",
-        "name": "Детская атрибутика, зажим для воздушного шара, 100 шт",
+        "name": "Детская атрибутика, зажим для воздушного шара (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B18",
@@ -655,7 +655,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B19",
-        "name": "Детская атрибутика, палочка для воздушного шара, 100 шт",
+        "name": "Детская атрибутика, палочка для воздушного шара (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B19",
@@ -664,7 +664,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B20",
-        "name": "Детская атрибутика, шар воздушный фирменный, 100 шт",
+        "name": "Детская атрибутика, шар воздушный фирменный (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B20",
@@ -673,7 +673,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B21",
-        "name": "Детская атрибутика, раскраска, 250 шт",
+        "name": "Детская атрибутика, раскраска (250 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B21",
@@ -682,7 +682,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B22",
-        "name": "Листовка А5 «Диплом пиццамейкера», 100 шт",
+        "name": "Листовка А5 «Диплом пиццамейкера» (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B22",
@@ -691,7 +691,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B23",
-        "name": "Детская атрибутика, колпачки, 176 шт",
+        "name": "Детская атрибутика, колпачки (176 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B23",
@@ -700,7 +700,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B24",
-        "name": "Детская атрибутика, маска «Додо Клюв», 200 шт",
+        "name": "Детская атрибутика, маска «Додо Клюв» (200 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B24",
@@ -709,7 +709,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B25",
-        "name": "Детская атрибутика, бумажная гирлянда, 60 шт",
+        "name": "Детская атрибутика, бумажная гирлянда (60 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B25",
@@ -718,7 +718,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B26",
-        "name": "Листовка «В Додо есть то, что важно», 200 шт",
+        "name": "Листовка «В Додо есть то, что важно» (200 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B26",
@@ -727,7 +727,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-B27",
-        "name": "Анкета «В Додо есть то, что важно», 100 шт",
+        "name": "Анкета «В Додо есть то, что важно» (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B27",
@@ -754,7 +754,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E2",
-        "name": "Салфетки бумажные, 100 шт*24 упак",
+        "name": "Салфетки бумажные (100 шт*24 упак)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E2",
@@ -763,7 +763,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E3",
-        "name": "Полотенца бумажные V-образное сложение 15уп.* 250лист. Focus Eco",
+        "name": "Полотенца бумажные V-образное сложение (15уп.* 250лист. Focus Eco)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E3",
@@ -772,7 +772,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E4",
-        "name": "Крупка. Мука из твердой пшеницы, 10кг",
+        "name": "Крупка. Мука из твердой пшеницы (10кг)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E4",
@@ -781,7 +781,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E5",
-        "name": "Для теста: Сахар-песок, 10 упак*1 кг",
+        "name": "Для теста: Сахар-песок (10 упак*1 кг)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E5",
@@ -790,7 +790,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E6",
-        "name": "Фольга алюминиевая 30см, 60м*12 рулонов",
+        "name": "Фольга алюминиевая (30см, 60м*12 рулонов)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E6",
@@ -799,7 +799,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E7",
-        "name": "Бумага для выпечки, 2000 шт./кор",
+        "name": "Бумага для выпечки (2000 шт./кор)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E7",
@@ -808,7 +808,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E8",
-        "name": "Пергамент Додо пицца фирменный, 2000 шт/кор",
+        "name": "Пергамент Додо пицца фирменный (2000 шт/кор)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E8",
@@ -817,7 +817,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E9",
-        "name": "Пакет для снэков, 2000 шт",
+        "name": "Пакет для снэков (2000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E9",
@@ -826,7 +826,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E10",
-        "name": "Термоэтикетка 40*110, 10 роликов*500 шт",
+        "name": "Термоэтикетка (40*110, 10 роликов*500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E10",
@@ -835,7 +835,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E11",
-        "name": "Этикетка 30*20 для маркировки продуктов, 14400 шт",
+        "name": "Этикетка для маркировки продуктов (30*20, 14400 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E11",
@@ -853,7 +853,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E13",
-        "name": "Чековая термо-лента без печати, 80 м*15 рол",
+        "name": "Чековая термо-лента без печати (80 м*15 рол)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E13",
@@ -862,7 +862,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E14",
-        "name": "Шапочка одноразовая, 100 шт",
+        "name": "Шапочка одноразовая (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E14",
@@ -871,7 +871,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E15",
-        "name": "Шапочка-сеточка из нейлона черная, 100 шт",
+        "name": "Шапочка-сеточка из нейлона черная (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E15",
@@ -880,7 +880,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E16",
-        "name": "Бахилы, 50 пар",
+        "name": "Бахилы (50 пар)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E16",
@@ -889,7 +889,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E17",
-        "name": "Мешки для мусора 180 л, заказывать кратно коробке, 1 кор*8шт",
+        "name": "Мешки для мусора (180 л, заказывать кратно коробке, 1 кор*8шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E17",
@@ -898,7 +898,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E18",
-        "name": "Мешки для мусора 60 л заказывать кратно коробке, 1 кор*60шт",
+        "name": "Мешки для мусора (60 л заказывать кратно коробке, 1 кор*60шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E18",
@@ -907,7 +907,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E19",
-        "name": "Перчатки одноразовые винил, S, 100 шт",
+        "name": "Перчатки одноразовые винил (S, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E19",
@@ -916,7 +916,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E20",
-        "name": "Перчатки одноразовые винил, M, 100 шт",
+        "name": "Перчатки одноразовые винил (M, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E20",
@@ -925,7 +925,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E21",
-        "name": "Перчатки одноразовые винил, L, 100 шт",
+        "name": "Перчатки одноразовые винил (L, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E21",
@@ -934,7 +934,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E22",
-        "name": "Перчатки одноразовые винил, XL, 100 шт",
+        "name": "Перчатки одноразовые винил (XL, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E22",
@@ -943,7 +943,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E23",
-        "name": "Бумага офисная А4, 500 л",
+        "name": "Бумага офисная А4 (500 л)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E23",
@@ -952,7 +952,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E24",
-        "name": "Бейдж, 20шт",
+        "name": "Бейдж (20шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E24",
@@ -961,7 +961,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-sertolovo-E25",
-        "name": "Трубочки 0.2",
+        "name": "Трубочки (0.2)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E25",
@@ -996,7 +996,7 @@ export const supplyBranches = [
     "products": [
       {
         "id": "supplies-agalatovo-B2",
-        "name": "Вилка в инд. упаковке 500 шт",
+        "name": "Вилка в инд. упаковке (500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B2",
@@ -1005,7 +1005,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B3",
-        "name": "Ложка столовая в инд. упаковке 500 шт",
+        "name": "Ложка столовая в инд. упаковке (500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B3",
@@ -1014,7 +1014,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B4",
-        "name": "Нож столовый в инд. упаковке 500 шт",
+        "name": "Нож столовый в инд. упаковке (500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B4",
@@ -1023,7 +1023,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B5",
-        "name": "Скатерть на поднос микс-дизайн, 320х250 мм 1000 шт",
+        "name": "Скатерть на поднос микс-дизайн (320х250 мм 1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B5",
@@ -1032,7 +1032,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B6",
-        "name": "Пакет «майка», 2000 шт",
+        "name": "Пакет «майка» (2000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B6",
@@ -1041,7 +1041,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B7",
-        "name": "Пакет для переноски коробок универсальный 20*55, 1000 шт",
+        "name": "Пакет для переноски коробок универсальный (20*55, 1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B7",
@@ -1050,7 +1050,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B8",
-        "name": "Стакан одноразовый, прозрачный 200 мл., 100шт*42упак",
+        "name": "Стакан одноразовый, прозрачный (200 мл., 100шт*42упак)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B8",
@@ -1068,7 +1068,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B10",
-        "name": "Держатель для двух стаканов 150 шт",
+        "name": "Держатель для двух стаканов (150 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B10",
@@ -1077,7 +1077,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B11",
-        "name": "Размешиватель для кофе, 5000 шт",
+        "name": "Размешиватель для кофе (5000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B11",
@@ -1086,7 +1086,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B12",
-        "name": "Сахар порционный, 1000 шт",
+        "name": "Сахар порционный (1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B12",
@@ -1095,7 +1095,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B13",
-        "name": "Трубочки с острым концом, 1250 шт",
+        "name": "Трубочки с острым концом (1250 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B13",
@@ -1104,7 +1104,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B14",
-        "name": "Для пиццы кусочками, конверт, 1000 шт",
+        "name": "Для пиццы кусочками, конверт (1000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B14",
@@ -1131,7 +1131,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B17",
-        "name": "Детская атрибутика, одноразовые тарелки, 200 шт",
+        "name": "Детская атрибутика, одноразовые тарелки (200 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B17",
@@ -1140,7 +1140,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B18",
-        "name": "Детская атрибутика, зажим для воздушного шара, 100 шт",
+        "name": "Детская атрибутика, зажим для воздушного шара (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B18",
@@ -1149,7 +1149,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B19",
-        "name": "Детская атрибутика, палочка для воздушного шара, 100 шт",
+        "name": "Детская атрибутика, палочка для воздушного шара (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B19",
@@ -1158,7 +1158,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B20",
-        "name": "Детская атрибутика, шар воздушный фирменный, 100 шт",
+        "name": "Детская атрибутика, шар воздушный фирменный (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B20",
@@ -1167,7 +1167,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B21",
-        "name": "Детская атрибутика, раскраска, 250 шт",
+        "name": "Детская атрибутика, раскраска (250 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B21",
@@ -1176,7 +1176,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B22",
-        "name": "Листовка А5 «Диплом пиццамейкера», 100 шт",
+        "name": "Листовка А5 «Диплом пиццамейкера» (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B22",
@@ -1185,7 +1185,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B23",
-        "name": "Детская атрибутика, колпачки, 176 шт",
+        "name": "Детская атрибутика, колпачки (176 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B23",
@@ -1194,7 +1194,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B24",
-        "name": "Детская атрибутика, маска «Додо Клюв», 200 шт",
+        "name": "Детская атрибутика, маска «Додо Клюв» (200 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B24",
@@ -1203,7 +1203,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B25",
-        "name": "Детская атрибутика, бумажная гирлянда, 60 шт",
+        "name": "Детская атрибутика, бумажная гирлянда (60 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B25",
@@ -1212,7 +1212,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B26",
-        "name": "Листовка «В Додо есть то, что важно», 200 шт",
+        "name": "Листовка «В Додо есть то, что важно» (200 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B26",
@@ -1221,7 +1221,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-B27",
-        "name": "Анкета «В Додо есть то, что важно», 100 шт",
+        "name": "Анкета «В Додо есть то, что важно» (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "B27",
@@ -1248,7 +1248,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E2",
-        "name": "Салфетки бумажные, 100 шт*24 упак",
+        "name": "Салфетки бумажные (100 шт*24 упак)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E2",
@@ -1257,7 +1257,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E3",
-        "name": "Полотенца бумажные V-образное сложение 15уп.* 250лист. Focus Eco",
+        "name": "Полотенца бумажные V-образное сложение (15уп.* 250лист. Focus Eco)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E3",
@@ -1266,7 +1266,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E4",
-        "name": "Крупка. Мука из твердой пшеницы, 10кг",
+        "name": "Крупка. Мука из твердой пшеницы (10кг)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E4",
@@ -1275,7 +1275,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E5",
-        "name": "Для теста: Сахар-песок, 10 упак*1 кг",
+        "name": "Для теста: Сахар-песок (10 упак*1 кг)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E5",
@@ -1284,7 +1284,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E6",
-        "name": "Фольга алюминиевая 30см, 60м*12 рулонов",
+        "name": "Фольга алюминиевая (30см, 60м*12 рулонов)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E6",
@@ -1293,7 +1293,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E7",
-        "name": "Бумага для выпечки, 2000 шт./кор",
+        "name": "Бумага для выпечки (2000 шт./кор)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E7",
@@ -1302,7 +1302,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E8",
-        "name": "Пергамент Додо пицца фирменный, 2000 шт/кор",
+        "name": "Пергамент Додо пицца фирменный (2000 шт/кор)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E8",
@@ -1311,7 +1311,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E9",
-        "name": "Пакет для снэков, 2000 шт",
+        "name": "Пакет для снэков (2000 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E9",
@@ -1320,7 +1320,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E10",
-        "name": "Термоэтикетка 40*110, 10 роликов*500 шт",
+        "name": "Термоэтикетка (40*110, 10 роликов*500 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E10",
@@ -1329,7 +1329,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E11",
-        "name": "Этикетка 30*20 для маркировки продуктов, 14400 шт",
+        "name": "Этикетка для маркировки продуктов (30*20, 14400 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E11",
@@ -1347,7 +1347,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E13",
-        "name": "Чековая термо-лента без печати, 80 м*15 рол",
+        "name": "Чековая термо-лента без печати (80 м*15 рол)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E13",
@@ -1356,7 +1356,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E14",
-        "name": "Шапочка одноразовая, 100 шт",
+        "name": "Шапочка одноразовая (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E14",
@@ -1365,7 +1365,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E15",
-        "name": "Шапочка-сеточка из нейлона черная, 100 шт",
+        "name": "Шапочка-сеточка из нейлона черная (100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E15",
@@ -1374,7 +1374,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E16",
-        "name": "Бахилы, 50 пар",
+        "name": "Бахилы (50 пар)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E16",
@@ -1383,7 +1383,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E17",
-        "name": "Мешки для мусора 180 л заказывать кратно коробке, 1 кор*8шт",
+        "name": "Мешки для мусора (180 л заказывать кратно коробке, 1 кор*8шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E17",
@@ -1392,7 +1392,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E18",
-        "name": "Мешки для мусора 60 л заказывать кратно коробке, 1 кор*60шт",
+        "name": "Мешки для мусора (60 л заказывать кратно коробке, 1 кор*60шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E18",
@@ -1401,7 +1401,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E19",
-        "name": "Перчатки одноразовые винил, S, 100 шт",
+        "name": "Перчатки одноразовые винил (S, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E19",
@@ -1410,7 +1410,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E20",
-        "name": "Перчатки одноразовые винил, M, 100 шт",
+        "name": "Перчатки одноразовые винил (M, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E20",
@@ -1419,7 +1419,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E21",
-        "name": "Перчатки одноразовые винил, L, 100 шт",
+        "name": "Перчатки одноразовые винил (L, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E21",
@@ -1428,7 +1428,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E22",
-        "name": "Перчатки одноразовые винил, XL, 100 шт",
+        "name": "Перчатки одноразовые винил (XL, 100 шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E22",
@@ -1437,7 +1437,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E23",
-        "name": "Бумага офисная А4, 500 л",
+        "name": "Бумага офисная А4 (500 л)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E23",
@@ -1446,7 +1446,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E24",
-        "name": "Бейдж, 20шт",
+        "name": "Бейдж (20шт)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E24",
@@ -1455,7 +1455,7 @@ export const supplyBranches = [
       },
       {
         "id": "supplies-agalatovo-E25",
-        "name": "Трубочки 0.2",
+        "name": "Трубочки (0.2)",
         "unit": "",
         "category": "Расходники",
         "quantityCell": "E25",

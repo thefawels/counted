@@ -44,11 +44,37 @@ export function exportSuppliesTemplate(source, reviews, CFB) {
     xml = xml.replace(pattern, (_match, attrs) => `<c${attrs.replace(/\s+t="[^"]*"/g, '')}><v>${review.value}</v></c>`);
   }
   put(branch.sheetPath, xml);
-  // Open the exported workbook on the pizzeria that was counted.
+  // Keep only the selected restaurant and its relationships.
+  const relationships = read('xl/_rels/workbook.xml.rels');
+  let selectedId;
+  const keptRelationships = relationships.replace(/<Relationship\b[^>]*\/>/g, tag => {
+    if (!tag.includes('/worksheet"')) return tag;
+    const target = tag.match(/Target="([^"]+)"/)[1];
+    if ('xl/' + target === branch.sheetPath) {
+      selectedId = tag.match(/Id="([^"]+)"/)[1];
+      return tag;
+    }
+    CFB.utils.cfb_del(zip, '/xl/' + target);
+    return '';
+  });
+  if (!selectedId) throw new Error('Не найден лист пиццерии');
+  put('xl/_rels/workbook.xml.rels', keptRelationships);
   let workbook = read('xl/workbook.xml');
+  workbook = workbook.replace(/<sheet\b[^>]*\/>/g, tag =>
+    tag.includes(`r:id="${selectedId}"`) ? tag : '');
   workbook = workbook.replace(/<workbookView\b([^>]*?)(\/?)>/, (_match, attrs, slash) =>
-    `<workbookView${attrs.replace(/\s+activeTab="[^"]*"/g, '')} activeTab="${branch.sheetIndex}"${slash}>`);
+    `<workbookView${attrs.replace(/\s+(?:activeTab|firstSheet)="[^"]*"/g, '')} activeTab="0" firstSheet="0"${slash}>`);
   put('xl/workbook.xml', workbook);
+  put('[Content_Types].xml', read('[Content_Types].xml').replace(/<Override\b[^>]*\/>/g, tag => {
+    const path = tag.match(/PartName="([^"]+)"/)[1];
+    return path.startsWith('/xl/worksheets/') && path !== '/' + branch.sheetPath ? '' : tag;
+  }));
+  // Remove unused shared text, including the Numbers export guide, without
+  // changing any cell references or formatting on the retained sheet.
+  const usedStrings = new Set([...xml.matchAll(/<c\b[^>]*\bt="s"[^>]*>\s*<v>(\d+)<\/v>/g)].map(match => Number(match[1])));
+  let stringIndex = 0;
+  put('xl/sharedStrings.xml', read('xl/sharedStrings.xml').replace(/<si>[\s\S]*?<\/si>/g,
+    tag => usedStrings.has(stringIndex++) ? tag : '<si><t></t></si>'));
   return {
     bytes: new Uint8Array(CFB.write(zip, {fileType: 'zip', type: 'array', compression: true})),
     fileName: `Расходники_${branch.name}_${source.revisions[0].isoDate}.xlsx`,

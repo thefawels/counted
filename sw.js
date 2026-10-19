@@ -1,7 +1,7 @@
 const CACHE_PREFIX = "counted-";
 const LEGACY_CACHE_PREFIX = "inventory-recheck-";
-const CACHE_NAME = "counted-v08-release";
-const PRECACHE = ["./","./index.html","./manifest.webmanifest","./favicon.png","./apple-touch-icon.png","./icon-192.png","./icon-512.png","./icon-1024.png","./og.png","./app-counted-v08.js","./chunk-BKRZC9ab.js","./index-JutMoODP.css","./count-mode-v08.css","./count-mode-v07-r2.js","./catalog-v07.js","./haptics-v05.js","./release-ui-v08.js","./review-flow.js","./count-blocks-v07.js"];
+const CACHE_NAME = "counted-v09-supplies";
+const PRECACHE = ["./","./index.html","./manifest.webmanifest","./favicon.png","./apple-touch-icon.png","./icon-192.png","./icon-512.png","./icon-1024.png","./og.png","./app-counted-v09.js","./chunk-BKRZC9ab.js","./index-JutMoODP.css","./count-mode-v09.css","./count-mode-v07-r2.js","./catalog-v07.js","./haptics-v05.js","./release-ui-v09.js","./review-flow.js","./count-blocks-v07.js","./supplies-v09.js","./supplies-data-v09.js","./supplies-template-v09.js"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

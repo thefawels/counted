@@ -1,0 +1,129 @@
+.mode-divider { margin: 24px 0; display: flex; align-items: center; gap: 16px; color: var(--muted-2); font-size: 13px; }
+.mode-divider::before, .mode-divider::after { content: ''; height: 1px; background: var(--line); flex: 1; }
+.count-mode-button { width: 100%; padding: 20px; border: 1px solid var(--line); border-radius: 16px; text-align: left; cursor: pointer; background: var(--surface); }
+.count-mode-button strong, .count-mode-button span { display: block; }
+.count-mode-button strong { font-size: 18px; color: var(--strong); }
+.count-mode-button span { margin-top: 6px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+.resume-report { width: 100%; margin-top: 16px; padding: 14px; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
+.haptics-setting { display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 16px; margin-top: 20px; padding: 14px 0; color: var(--muted); font-size: 14px; cursor: pointer; }
+.haptics-setting span:last-child { color: var(--strong); }
+.menu-popover .haptics-setting { margin: 0; padding: 12px 16px; }
+.count-metrics { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-top: 12px; }
+.count-metrics small { color: var(--muted); }
+.count-metrics strong { font-size: 20px; font-variant-numeric: tabular-nums; }
+.count-summary { grid-template-columns: 1fr 1fr; }
+.count-mode-button:active { background: #202022; }
+
+/* Keep the numeric keypad aligned after removing clear-all. */
+.calculator-grid .backspace-wide { grid-column: span 2; }
+/* Match the original revision label exactly, with no added visual treatment. */
+.source-values .revision-value { background: var(--black); color: var(--muted); border: 0; border-radius: 24px; padding: 15px 16px; font-size: 11px; text-align: left; }
+
+.landing-shell { flex-direction: column; justify-content: flex-start; }
+.landing-card { margin-block: auto; }
+.landing-title-row { align-items: center; gap: 12px; }
+.brand-title { font-size: clamp(38px, 10.5vw, 56px); }
+.app-version { display: block; margin-top: 9px; color: var(--muted-2); font-size: 11px; letter-spacing: .04em; }
+.landing-header-actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.whats-new-button { font-size: 12px; color: var(--muted); min-height: 44px; cursor: pointer; white-space: nowrap; }
+.landing-header-actions .info-button { min-width: 38px; min-height: 38px; width: 38px; height: 38px; margin: 0; }
+.brand-credit { margin: 36px auto 0; padding-bottom: 8px; text-align: center; flex-shrink: 0; }
+.brand-credit p { font-size: 12px; color: var(--muted); letter-spacing: .015em; }
+.brand-credit a { display: inline-block; margin-top: 7px; font-size: 10px; color: var(--muted-2); }
+.release-date { color: var(--muted); font-size: 13px; }
+.calculator-grid .haptic-key { position: relative; display: flex; min-width: 0; border-radius: 22px; }
+.calculator-grid .haptic-key-face { width: 100%; min-height: 56px; flex: 1; }
+.haptic-key .haptic-touch-target { -webkit-appearance: auto; appearance: auto; position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; padding: 0; opacity: 0; z-index: 1; clip-path: inset(0 round 22px); }
+@media(max-width: 359px) { .landing-header-actions { gap: 8px; } .brand-title { font-size: 36px; } .whats-new-button { font-size: 11px; } }
+
+/* Inset outlines preserve the card dimensions and stay deliberately muted. */
+.has-anomaly.anomaly-minus { box-shadow: inset 0 0 0 1px rgba(181,105,102,.55); }
+.has-anomaly.anomaly-plus { box-shadow: inset 0 0 0 1px rgba(173,143,87,.55); }
+.anomaly-note { font-size: 11px; font-weight: 500; line-height: 1.4; }
+.anomaly-note.anomaly-minus { color: #b98582; }
+.anomaly-note.anomaly-plus { color: #b5a078; }
+.product-topline .anomaly-note { margin-left: auto; flex-shrink: 0; text-align: right; }
+.product-topline { flex-wrap: wrap; }
+.calculator-display .anomaly-note { margin-top: 5px; }
+.calculator-actions .save-next { grid-column: 1 / -1; background: #e5e5e7; color: #080808; }
+.calculator-actions { gap: 8px; }
+.calculator-actions button:nth-child(2) { border: 1px solid var(--line); background: #171719; color: #cecdcd; }
+
+/* Compact quantity blocks, with the keypad always available underneath. */
+.count-block-panel { margin: 12px 0; }
+.count-block-total { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.count-block-total small { font-size: 12px; color: var(--muted); }
+.count-block-total strong { font-size: 24px; font-variant-numeric: tabular-nums; }
+.count-blocks { display: flex; gap: 8px; overflow-x: auto; padding: 10px 0 3px; overscroll-behavior-inline: contain; }
+.count-blocks:empty { display: none; }
+.count-block { flex: 0 0 auto; min-height: 40px; padding: 8px 13px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--strong); font-size: 14px; font-variant-numeric: tabular-nums; cursor: pointer; }
+.count-block.is-selected { border-color: #b0b0b4; background: #29292c; }
+.count-block:focus-visible { outline: 2px solid #ccc; outline-offset: 2px; }
+.count-block-edit { display: flex; align-items: center; gap: 12px; margin-top: 8px; font-size: 11px; color: var(--muted); }
+.count-block-edit span { margin-right: auto; }
+.count-block-edit button { min-height: 36px; color: var(--strong); cursor: pointer; }
+.count-block-edit button:last-child { color: #b98582; }
+.count-block-calculator .calculator-actions { grid-template-columns: 1fr 1fr; }
+.count-block-calculator .calculator-actions button { min-height: 44px; font-size: 12px; }
+.count-block-calculator .calculator-display { margin-top: 8px; }
+@media (max-height: 740px) {
+ .count-block-calculator .sheet-heading h2 { font-size: 18px; }
+ .count-block-calculator .calculator-display { padding: 12px 16px; }
+ .count-block-calculator .calculator-grid { gap: 6px; }
+ .count-block-calculator .calculator-grid button, .count-block-calculator .haptic-key-face { min-height: 44px; }
+ .count-block-calculator .count-block-total strong { font-size: 21px; }
+}
+
+/* Quiet outlines keep cards distinct without adding visual weight. */
+.product-row { outline: 1px solid rgba(255,255,255,.055); outline-offset: -1px; }
+.product-row.has-draft { outline-color: rgba(255,255,255,.28); }
+.product-row:focus-visible { outline-color: rgba(255,255,255,.55); }
+/* Preserve the dark button while softly blurring content behind it. */
+.bottom-bar { background: rgba(0,0,0,.80); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+.bottom-bar .export-button { background: rgba(12,12,13,.76); }
+@supports not ((backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px))) {
+ .bottom-bar { background: #000; }
+ .bottom-bar .export-button { background: #0c0c0d; }
+}
+#root * { text-transform: none; }
+.eyebrow, .landing-subtitle, .pizzeria-line, .revision-card small,
+.category-header h2, .metrics-grid small, .sheet-heading p,
+.calculator-display small, .info-heading p, .info-content h3,
+.export-pizzeria small { letter-spacing: .02em; }
+
+.saved-calculation { margin-top: 5px; color: #676668; font-size: 11px; line-height: 1.35; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.landing-subtitle { margin-bottom: 22px; }
+.count-mode-button span { font-size: 12px; }
+
+.supplies-mode-button { margin-top: 10px; }
+.supplies-branches { display: grid; gap: 10px; margin-top: 24px; }
+.supplies-hint { color: var(--muted); font-size: 12px; line-height: 1.5; margin: 16px 0 0; }
+.supplies-reference { margin-top: 12px; color: var(--muted); }
+.supplies-reference p { font-size: 12px; margin: 0 0 5px; }
+.supplies-reference strong { color: var(--strong); font-weight: 500; }
+.supplies-reference small { display: block; font-size: 11px; line-height: 1.4; color: var(--muted-2); }
+.supplies-picker .sheet-heading h2 { font-size: 26px; }
+
+/* A quiet highlight on light interface buttons; keypad/actions stay unchanged. */
+.primary-button:not(.calculator-sheet *),
+.filter-row button.is-active:not(.calculator-sheet *) {
+ border-color: #eeece8;
+ box-shadow: inset 0 0 0 1px rgba(255,255,255,.24);
+}
+/* Preserve the comfortable touch target and keyboard focus without a circle. */
+.icon-button[aria-label^="Закрыть"],
+.icon-button[aria-label="Меню"] {
+ background: transparent;
+ border: 0;
+ border-radius: 0;
+ box-shadow: none;
+}
+
+.report-mode-button { margin: 28px 0 12px; padding: 24px 20px; background: #171719; border-color: #454547; }
+.report-mode-button strong { font-size: 20px; }
+.report-mode-button span { font-size: 13px; }
+.whats-new-button { border: 1px solid #353537; border-radius: 999px; padding: 0 11px; }
+.report-upload-sheet .drop-zone { margin-top: 20px; }
+.report-upload-sheet .sheet-heading h2 { font-size: 25px; }
+.bottom-bar .export-button { background: rgba(30,30,32,.88); }
+@supports not ((backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px))) { .bottom-bar .export-button { background: #1e1e20; } }

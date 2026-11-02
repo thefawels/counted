@@ -36,15 +36,39 @@ export const catalog = [
     "sourceCategory": "Ингредиент"
   },
   {
+    "id": "count-f45d8d3da7ca721ed4ac",
+    "name": "Говядина митбол",
+    "unit": "кг",
+    "sourceCategory": "Ингредиент"
+  },
+  {
     "id": "11EEF66FAE1F2B594E3962EA553937C0",
     "name": "Говядина пряная",
     "unit": "кг",
     "sourceCategory": "Ингредиент"
   },
   {
+    "id": "count-2f559594ac5bd0c1b3c4",
+    "name": "Горячий сорбет Манго-чили",
+    "unit": "шт",
+    "sourceCategory": "Ингредиент"
+  },
+  {
+    "id": "count-a76480d8fa8cc7e0f875",
+    "name": "Горячий сорбет Медовая груша-черника",
+    "unit": "шт",
+    "sourceCategory": "Ингредиент"
+  },
+  {
     "id": "000D3A240C71BE9A11E71F3E39396DB7",
     "name": "Гренки",
     "unit": "кг",
+    "sourceCategory": "Ингредиент"
+  },
+  {
+    "id": "count-aefcbfcd308f90549a19",
+    "name": "Индиан Тоник Рич 1л",
+    "unit": "л",
     "sourceCategory": "Ингредиент"
   },
   {
@@ -102,12 +126,6 @@ export const catalog = [
     "sourceCategory": "Ингредиент"
   },
   {
-    "id": "count-concentrate-lemon-mint",
-    "name": "Концентрат Лимон-мята",
-    "unit": "кг",
-    "sourceCategory": "Ингредиент"
-  },
-  {
     "id": "11F1025DB3F135A4270B72F188551F10",
     "name": "Концентрат Малина Каламанси Драгонфрут",
     "unit": "кг",
@@ -150,9 +168,21 @@ export const catalog = [
     "sourceCategory": "Ингредиент"
   },
   {
+    "id": "count-d752bc20bfbeb1454724",
+    "name": "Молоко сгущенное",
+    "unit": "кг",
+    "sourceCategory": "Ингредиент"
+  },
+  {
     "id": "000D3A240C71BE9A11E71F3E39358B4F",
     "name": "Мороженое",
     "unit": "кг",
+    "sourceCategory": "Ингредиент"
+  },
+  {
+    "id": "count-09d2fd353d577ba54197",
+    "name": "Напиток Nordic Tea «Апельсин Облепиха»",
+    "unit": "шт",
     "sourceCategory": "Ингредиент"
   },
   {
@@ -212,6 +242,12 @@ export const catalog = [
   {
     "id": "11EFE58E8EC60FFBD22635FA39C2A8F0",
     "name": "Свиная шейка",
+    "unit": "кг",
+    "sourceCategory": "Ингредиент"
+  },
+  {
+    "id": "count-a5c6b70016d8f3b46167",
+    "name": "Сироп Булочка с корицей",
     "unit": "кг",
     "sourceCategory": "Ингредиент"
   },
@@ -276,12 +312,6 @@ export const catalog = [
     "sourceCategory": "Ингредиент"
   },
   {
-    "id": "count-sauce-masala",
-    "name": "Соус масала",
-    "unit": "кг",
-    "sourceCategory": "Ингредиент"
-  },
-  {
     "id": "11EA7975A0776D8AEA2E520EA225EB30",
     "name": "Соус песто",
     "unit": "кг",
@@ -290,12 +320,6 @@ export const catalog = [
   {
     "id": "11EA7D8AB5C779DAFDE6467579682A50",
     "name": "Соус пломбирный",
-    "unit": "кг",
-    "sourceCategory": "Ингредиент"
-  },
-  {
-    "id": "11EFE2099DFA93FC89F34B04214FB6B0",
-    "name": "Соус Сацебели",
     "unit": "кг",
     "sourceCategory": "Ингредиент"
   },
@@ -332,6 +356,12 @@ export const catalog = [
   {
     "id": "000D3A240C71BE9A11E71F3E3934C64C",
     "name": "Соус чесночный ранч",
+    "unit": "кг",
+    "sourceCategory": "Ингредиент"
+  },
+  {
+    "id": "count-eda96c6a2d084d80077c",
+    "name": "Сыр Блю Чиз",
     "unit": "кг",
     "sourceCategory": "Ингредиент"
   },
@@ -374,6 +404,12 @@ export const catalog = [
   {
     "id": "11EA5A28ABA335A54D2D1CD3C77AB1C0",
     "name": "Чеснок сухой",
+    "unit": "кг",
+    "sourceCategory": "Ингредиент"
+  },
+  {
+    "id": "count-ec2414bc2dcae5dfe310",
+    "name": "Чизибайтсы",
     "unit": "кг",
     "sourceCategory": "Ингредиент"
   },
@@ -522,6 +558,12 @@ export const catalog = [
     "sourceCategory": "Готовые продукты"
   },
   {
+    "id": "count-3cdd70f1d31c72549c2f",
+    "name": "Варенье малиновое",
+    "unit": "шт",
+    "sourceCategory": "Готовые продукты"
+  },
+  {
     "id": "11EA78559B8B85FE4A8F44D96B134640",
     "name": "Детский сок “Добрый” Яблоко 0,2 л",
     "unit": "шт",
@@ -582,6 +624,12 @@ export const catalog = [
     "sourceCategory": "Готовые продукты"
   },
   {
+    "id": "count-b28b1b6fba228258ea93",
+    "name": "Игрушки Буба",
+    "unit": "шт",
+    "sourceCategory": "Готовые продукты"
+  },
+  {
     "id": "11F0738CB887F96F971B0A99F2C57D50",
     "name": "Квас 0,5л",
     "unit": "шт",
@@ -602,6 +650,12 @@ export const catalog = [
   {
     "id": "11F01F78B83CA33B2AF86B055624E340",
     "name": "Макаронс Штрудель и соленая карамель",
+    "unit": "шт",
+    "sourceCategory": "Готовые продукты"
+  },
+  {
+    "id": "count-ccc22ecf57bc6bd709d9",
+    "name": "Малинки в шоколаде",
     "unit": "шт",
     "sourceCategory": "Готовые продукты"
   },
@@ -684,8 +738,20 @@ export const catalog = [
     "sourceCategory": "Готовые продукты"
   },
   {
+    "id": "count-dcae7fb4d131b64453ca",
+    "name": "Сок Добрый 1л апельсин",
+    "unit": "шт",
+    "sourceCategory": "Готовые продукты"
+  },
+  {
     "id": "11F029C2A2858B8F460374E6CE928B30",
     "name": "Сок Добрый 1л апельсин-мандарин",
+    "unit": "шт",
+    "sourceCategory": "Готовые продукты"
+  },
+  {
+    "id": "count-1f7875147e725e862d2a",
+    "name": "Сок Добрый 1л мультифрукт",
     "unit": "шт",
     "sourceCategory": "Готовые продукты"
   },
@@ -698,6 +764,12 @@ export const catalog = [
   {
     "id": "11EF017B938213B5911DB9C04EC6C7B0",
     "name": "Сорбет Клубничный гранат (мороженое)",
+    "unit": "шт",
+    "sourceCategory": "Готовые продукты"
+  },
+  {
+    "id": "count-180af9c4e940fd45c4f3",
+    "name": "Сорбет Лимонный фреш (мороженое)",
     "unit": "шт",
     "sourceCategory": "Готовые продукты"
   },
@@ -734,6 +806,12 @@ export const catalog = [
   {
     "id": "000D3A240C71BE9A11E71F3E3934B40E",
     "name": "Соус Сырный порционный",
+    "unit": "шт",
+    "sourceCategory": "Готовые продукты"
+  },
+  {
+    "id": "count-4e834a96389e4dcbc45c",
+    "name": "Соус Сырный Чеддер порционный",
     "unit": "шт",
     "sourceCategory": "Готовые продукты"
   },
@@ -798,12 +876,6 @@ export const catalog = [
     "sourceCategory": "Готовые продукты"
   },
   {
-    "id": "count-tea-linden-melissa",
-    "name": "Чай черный Душистая липа с мелиссой",
-    "unit": "шт",
-    "sourceCategory": "Готовые продукты"
-  },
-  {
     "id": "11F0E48F810C73D8BD6D21D2B565F6A0",
     "name": "Чай черный Пряное солнце",
     "unit": "шт",
@@ -858,6 +930,12 @@ export const catalog = [
     "sourceCategory": "Упаковка"
   },
   {
+    "id": "count-f67d7a7aa4087025700d",
+    "name": "Коробка 25 см Буба",
+    "unit": "шт",
+    "sourceCategory": "Упаковка"
+  },
+  {
     "id": "count-box-25-winx",
     "name": "Коробка 25 см Винкс",
     "unit": "шт",
@@ -872,6 +950,12 @@ export const catalog = [
   {
     "id": "000D3A240C71BE9A11E71F3E39355465",
     "name": "Коробка 35",
+    "unit": "шт",
+    "sourceCategory": "Упаковка"
+  },
+  {
+    "id": "count-3a519cbdaeba9858e3cf",
+    "name": "Коробка для десертов (квадратная)",
     "unit": "шт",
     "sourceCategory": "Упаковка"
   },
@@ -968,6 +1052,12 @@ export const catalog = [
   {
     "id": "000D3A25D54580E611E736E35B03538B",
     "name": "Стакан для кофе 400мл",
+    "unit": "шт",
+    "sourceCategory": "Упаковка"
+  },
+  {
+    "id": "count-82814caf4488caaf7b14",
+    "name": "Термоэтикетка на продукт",
     "unit": "шт",
     "sourceCategory": "Упаковка"
   },

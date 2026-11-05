@@ -1,3 +1,4 @@
+import {renderIcon} from "./iconoir.js";
 export const version = 'ver 1.0';
 export const releaseNotes = [
   { version: 'ver 1.0', date: '02.11.2026', items: ['Обновление списка ревизии.', 'Изменения интерфейса.'] },
@@ -20,7 +21,7 @@ export function renderReleasePanel(w, close) {
     w.jsxs('section', { className: 'info-sheet release-sheet', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'release-title', children: [
       w.jsxs('header', { className: 'info-heading', children: [
         w.jsxs('div', { children: [w.jsx('p', { children: version }), w.jsx('h2', { id: 'release-title', children: 'Что нового' })] }),
-        w.jsx('button', { type: 'button', className: 'icon-button', 'aria-label': 'Закрыть изменения', onClick: close, children: '×' }),
+        w.jsx('button', { type: 'button', className: 'icon-button', 'aria-label': 'Закрыть изменения', onClick: close, children: renderIcon(w, 'close') }),
       ] }),
       w.jsx('div', { className: 'info-content', children: releaseNotes.map(note => w.jsxs('article', { children: [
         w.jsx('p', { className: 'release-date', children: `${note.version} · ${note.date}` }),

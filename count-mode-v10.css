@@ -290,3 +290,5 @@
 @media (prefers-reduced-transparency:reduce) {
  .bottom-bar,.work-header,.catalog-toolbar { background:#101011; -webkit-backdrop-filter:none; backdrop-filter:none; }
 }
+
+.report-upload-sheet > .sheet-heading { justify-content:flex-end; }

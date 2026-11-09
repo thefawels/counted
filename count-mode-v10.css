@@ -151,3 +151,88 @@
  .whats-new-button .action-label { gap:4px; }
  .calculator-actions .action-label { gap:4px; }
 }
+
+/* Four home tiles; restaurant choices keep their compact list layout. */
+.landing-card {
+ display:grid;
+ grid-template-columns:repeat(2,minmax(0,1fr));
+ gap:12px;
+}
+.landing-card > .landing-title-row { grid-column:1 / -1; margin-bottom:16px; }
+.landing-card > .count-mode-button {
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ justify-content:center;
+ aspect-ratio:1;
+ min-height:160px;
+ margin:0;
+ padding:16px 10px;
+ gap:0;
+ border-radius:24px;
+ text-align:center;
+ background:#101011;
+ border:1px solid rgba(240,237,230,.10);
+}
+.landing-card > .count-mode-button > .ui-icon {
+ width:44px;
+ height:44px;
+ margin-bottom:14px;
+ opacity:.88;
+}
+.landing-card > .count-mode-button > strong {
+ font-size:clamp(14px,4.1vw,18px);
+ line-height:1.2;
+ font-weight:650;
+ max-width:100%;
+}
+.landing-card > .count-mode-button > span {
+ font-size:11px;
+ line-height:1.4;
+ margin-top:7px;
+ max-width:100%;
+ text-wrap:balance;
+ color:#949390;
+}
+.landing-card > .report-mode-button { background:#181819; border-color:rgba(240,237,230,.18); }
+.landing-card > .count-mode-button:active { background:#202021; transform:scale(.98); }
+.landing-card > .count-mode-button:focus-visible { outline:2px solid #b6b3ad; outline-offset:3px; }
+
+/* A single dark glass surface, inspired by the reference's rounded dock. */
+.bottom-bar {
+ width:min(calc(100% - 24px),560px);
+ bottom:calc(10px + var(--safe-bottom));
+ padding:0;
+ border-radius:30px;
+ border:1px solid rgba(240,237,230,.11);
+ background:rgba(7,7,8,.76);
+ -webkit-backdrop-filter:blur(24px) saturate(115%);
+ backdrop-filter:blur(24px) saturate(115%);
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.035),0 14px 38px rgba(0,0,0,.32);
+ overflow:hidden;
+}
+.bottom-bar .export-button {
+ min-height:76px;
+ border-radius:29px;
+ padding:0 20px;
+ gap:12px;
+ background:transparent;
+ font-size:15px;
+}
+.bottom-bar .export-button > .ui-icon { width:24px; height:24px; }
+.bottom-bar .export-button small { background:rgba(240,237,230,.06); border-radius:12px; }
+.bottom-bar .export-button:active { background:rgba(255,255,255,.045); }
+@media (max-width:360px) {
+ .landing-card { gap:10px; }
+ .landing-card > .count-mode-button { padding:12px 8px; border-radius:21px; }
+ .landing-card > .count-mode-button > .ui-icon { width:38px; height:38px; margin-bottom:10px; }
+ .landing-card > .count-mode-button > span { font-size:10px; }
+ .bottom-bar .export-button { padding-inline:14px; gap:8px; font-size:14px; }
+ .bottom-bar .export-button small { padding:6px 8px; font-size:10px; }
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))) {
+ .bottom-bar { background:rgba(12,12,13,.97); }
+}
+@media (prefers-reduced-transparency:reduce) {
+ .bottom-bar { background:#101011; -webkit-backdrop-filter:none; backdrop-filter:none; }
+}

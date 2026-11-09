@@ -236,3 +236,53 @@
 @media (prefers-reduced-transparency:reduce) {
  .bottom-bar { background:#101011; -webkit-backdrop-filter:none; backdrop-filter:none; }
 }
+
+/* Edge-attached results panel, including the iPhone home-indicator area. */
+.bottom-bar {
+ left:0;
+ right:0;
+ bottom:0;
+ width:100%;
+ transform:none;
+ padding:0 0 var(--safe-bottom);
+ border-radius:30px 30px 0 0;
+ border:0;
+ border-top:1px solid rgba(240,237,230,.10);
+ background:rgba(6,6,7,.62);
+ -webkit-backdrop-filter:blur(36px) saturate(125%);
+ backdrop-filter:blur(36px) saturate(125%);
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.025),0 -8px 32px rgba(0,0,0,.16);
+}
+.bottom-bar .export-button {
+ width:100%;
+ max-width:840px;
+ margin-inline:auto;
+ min-height:78px;
+ border-radius:29px 29px 0 0;
+ padding-inline:24px;
+ background:transparent;
+}
+.bottom-bar .export-button:active { transform:none; background:rgba(255,255,255,.045); }
+.work-shell { padding-bottom:calc(100px + var(--safe-bottom)); }
+
+/* One continuous frosted header with an opaque black search field. */
+.work-topbar {
+ position:sticky;
+ top:0;
+ z-index:20;
+ background:rgba(8,8,9,.64);
+ border-bottom:1px solid rgba(240,237,230,.10);
+ -webkit-backdrop-filter:blur(30px) saturate(120%);
+ backdrop-filter:blur(30px) saturate(120%);
+}
+.work-topbar .work-header { background:transparent; }
+.work-topbar .catalog-toolbar { position:relative; top:auto; background:transparent; }
+.work-topbar .search-box,
+.work-topbar .search-box input { background:#000; opacity:1; }
+.work-topbar .search-box { -webkit-backdrop-filter:none; backdrop-filter:none; }
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))) {
+ .bottom-bar,.work-topbar { background:#0c0c0d; }
+}
+@media (prefers-reduced-transparency:reduce) {
+ .bottom-bar,.work-topbar { background:#101011; -webkit-backdrop-filter:none; backdrop-filter:none; }
+}

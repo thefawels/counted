@@ -265,24 +265,28 @@
 .bottom-bar .export-button:active { transform:none; background:rgba(255,255,255,.045); }
 .work-shell { padding-bottom:calc(100px + var(--safe-bottom)); }
 
-/* One continuous frosted header with an opaque black search field. */
-.work-topbar {
+/* The title scrolls away; only search and filters remain sticky. */
+.work-header {
+ position:relative;
+ background:rgba(8,8,9,.64);
+ -webkit-backdrop-filter:blur(30px) saturate(120%);
+ backdrop-filter:blur(30px) saturate(120%);
+}
+.catalog-toolbar {
  position:sticky;
  top:0;
- z-index:20;
+ z-index:18;
+ padding-top:calc(3px + var(--safe-top));
  background:rgba(8,8,9,.64);
  border-bottom:1px solid rgba(240,237,230,.10);
  -webkit-backdrop-filter:blur(30px) saturate(120%);
  backdrop-filter:blur(30px) saturate(120%);
 }
-.work-topbar .work-header { background:transparent; }
-.work-topbar .catalog-toolbar { position:relative; top:auto; background:transparent; }
-.work-topbar .search-box,
-.work-topbar .search-box input { background:#000; opacity:1; }
-.work-topbar .search-box { -webkit-backdrop-filter:none; backdrop-filter:none; }
+.search-box,.search-box input { background:#000; opacity:1; }
+.search-box { -webkit-backdrop-filter:none; backdrop-filter:none; }
 @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))) {
- .bottom-bar,.work-topbar { background:#0c0c0d; }
+ .bottom-bar,.work-header,.catalog-toolbar { background:#0c0c0d; }
 }
 @media (prefers-reduced-transparency:reduce) {
- .bottom-bar,.work-topbar { background:#101011; -webkit-backdrop-filter:none; backdrop-filter:none; }
+ .bottom-bar,.work-header,.catalog-toolbar { background:#101011; -webkit-backdrop-filter:none; backdrop-filter:none; }
 }

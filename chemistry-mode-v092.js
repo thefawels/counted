@@ -26,10 +26,12 @@ export function exportSuppliesTemplate(source,reviews,CFB){
  for(const product of chemistryProducts){
   const review=reviews[`${product.id}:${branch.id}`];
   if(!review)continue;
-  if(!Number.isFinite(review.value)||review.value<0)throw new Error('Некорректное количество');
+  if(!review.noOrder&&(!Number.isFinite(review.value)||review.value<0))throw new Error('Некорректное количество');
   const pattern=new RegExp(`<x:c\\b([^>]*\\br="${product.quantityCell}"[^>]*?)(?:\\s*/>|>[\\s\\S]*?</x:c>)`);
   if(!pattern.test(xml))throw new Error(`В бланке нет ячейки ${product.quantityCell}`);
-  xml=xml.replace(pattern,(_match,attrs)=>`<x:c${attrs.replace(/\s+t="[^"]*"/g,'')} t="n"><x:v>${review.value}</x:v></x:c>`);
+  xml=xml.replace(pattern,(_match,attrs)=>review.noOrder
+   ? `<x:c${attrs.replace(/\s+t="[^"]*"/g,'')} t="inlineStr"><x:is><x:t>-</x:t></x:is></x:c>`
+   : `<x:c${attrs.replace(/\s+t="[^"]*"/g,'')} t="n"><x:v>${review.value}</x:v></x:c>`);
  }
  CFB.utils.cfb_add(zip,path,new TextEncoder().encode(xml));
  const now=new Date(),date=[now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');

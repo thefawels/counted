@@ -292,3 +292,5 @@
 }
 
 .report-upload-sheet > .sheet-heading { justify-content:flex-end; }
+
+.calculator-actions .no-order { grid-column:1 / -1; min-height:44px; }

@@ -1,6 +1,6 @@
 // Standalone counts retain both the quantity and the original calculation.
 export function blocksFor(review) {
-  if (!review) return [];
+  if (!review || review.noOrder) return [];
   if (Array.isArray(review.blocks)) return review.blocks;
   if (!Number.isFinite(review.value)) return [];
   return [{ id: 'legacy', value: review.value, expression: String(review.value).replace('.', ',') }];
@@ -32,6 +32,7 @@ export function removeBlock(review, id) {
 
 export function migrateCountReviews(reviews) {
   return Object.fromEntries(Object.entries(reviews ?? {}).flatMap(([id, review]) => {
+    if (review?.noOrder === true) return [[id, {...review,value:null,blocks:[],status:"same"}]];
     const migrated = reviewFor(blocksFor(review));
     return migrated ? [[id, migrated]] : [];
   }));

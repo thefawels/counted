@@ -1,6 +1,6 @@
 const CACHE_PREFIX = "counted-";
 const LEGACY_CACHE_PREFIX = "inventory-recheck-";
-const CACHE_NAME = "counted-v10-assets-11";
+const CACHE_NAME = "counted-v10-assets-12";
 const PRECACHE = ["./assets/js/review-excel-style.js","./assets/js/iconoir.js","./","./index.html","./manifest.webmanifest","./assets/icons/favicon-new.png","./assets/icons/apple-touch-icon-new.png","./assets/icons/icon-192-new.png","./assets/icons/icon-512-new.png","./assets/icons/icon-1024-new.png","./assets/js/app-counted-v10.js","./assets/js/chunk-BKRZC9ab.js","./assets/css/base-v091.css","./assets/css/count-mode-v10.css","./assets/js/count-mode-v10.js","./assets/js/catalog-v10.js","./assets/js/haptics-v10.js","./assets/js/release-ui-v10.js","./assets/js/review-flow.js","./assets/js/count-blocks-v10.js","./assets/js/supplies-v09.js","./assets/js/chemistry-mode-v092.js","./assets/js/chemistry-data-v092.js","./assets/js/chemistry-template-v092.js","./assets/js/supplies-data-v09.js","./assets/js/supplies-template-v09.js"];
 
 self.addEventListener("install", (event) => {

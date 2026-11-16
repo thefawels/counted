@@ -38,10 +38,12 @@ export function exportSuppliesTemplate(source, reviews, CFB) {
   for (const product of branch.products) {
     const review = reviews[product.id];
     if (!review) continue;
-    if (!Number.isFinite(review.value) || review.value < 0) throw new Error('Некорректное количество');
+    if (!review.noOrder && (!Number.isFinite(review.value) || review.value < 0)) throw new Error('Некорректное количество');
     const pattern = new RegExp(`<c\\b([^>]*\\br="${product.quantityCell}"[^>]*?)(?:\\s*/>|>[\\s\\S]*?</c>)`);
     if (!pattern.test(xml)) throw new Error(`В бланке нет ячейки ${product.quantityCell}`);
-    xml = xml.replace(pattern, (_match, attrs) => `<c${attrs.replace(/\s+t="[^"]*"/g, '')}><v>${review.value}</v></c>`);
+    xml = xml.replace(pattern, (_match, attrs) => review.noOrder
+      ? `<c${attrs.replace(/\s+t="[^"]*"/g, '')} t="inlineStr"><is><t>-</t></is></c>`
+      : `<c${attrs.replace(/\s+t="[^"]*"/g, '')}><v>${review.value}</v></c>`);
   }
   put(branch.sheetPath, xml);
   // Keep only the selected restaurant and its relationships.

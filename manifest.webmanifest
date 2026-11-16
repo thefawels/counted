@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Counted!",
   "short_name": "Counted!",
-  "description": "Перепроверка инвентаризации по отчёту «Потери и избыток» из DodoIS",
+  "description": "Counted! — PWA для инвентаризации: подсчёт продуктов и расходников, перепроверка ревизии и экспорт в Excel.",
   "lang": "ru",
   "start_url": "./",
   "scope": "./",
@@ -12,19 +12,19 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "./icon-192-new.png",
+      "src": "./assets/icons/icon-192-new.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./icon-512-new.png",
+      "src": "./assets/icons/icon-512-new.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./icon-1024-new.png",
+      "src": "./assets/icons/icon-1024-new.png",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any"
